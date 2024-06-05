@@ -1,0 +1,57 @@
+###
+//Inscription
+POST http://localhost:8080/api/inscription
+Content-Type: application/json
+
+{
+  "email": "sali@gmail.com",
+  "mdp": "sali",
+  "nom": "Salimata BOLLY"
+}
+
+###
+
+###
+POST http://localhost:8080/api/activation
+Content-Type: application/json
+
+{
+  "email": "sali@gmail.com",
+  "code": "015658"
+}
+
+###
+POST http://localhost:8080/api/connexion
+Content-Type: application/json
+
+{
+  "username": "sali@gmail.com",
+  "password": "sali"
+}
+
+###
+POST http://localhost:8080/api/connexion
+Content-Type: application/json
+
+{
+  "username": "admin@admin.com",
+  "password": "admin"
+}
+###
+POST http://localhost:8080/api/connexion
+Content-Type: application/json
+
+{
+  "username": "manager@manager.com",
+  "password": "manager"
+}
+###
+GET http://localhost:8080/api/utilisateur
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MTc1MjA1MjgsInN1YiI6InNhbGlAZ21haWwuY29tIiwibm9tIjoiU2FsaW1hdGEgQk9MTFkifQ.ED3swkPpR3mpwqfzJ37lPSkNK5EoVfGMVvMVeJiFOnw
+
+###
+
+GET http://localhost:8080/api/utilisateur
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MTc1MjA4MjEsInN1YiI6Im1hbmFnZXJAbWFuYWdlci5jb20iLCJub20iOiJtYW5hZ2VyIn0.yUf_gyOuHYqbSwdRyN9slftVjJ-BOgw5Sn6iljrIjDA

@@ -1,0 +1,18 @@
+POST http://localhost:8080/api/connexion
+Content-Type: application/json
+
+{
+  "username": "madou@madou.com",
+  "password": "madou"
+}
+
+
+###
+
+POST http://localhost:8080/api/connexion
+Content-Type: application/json
+
+{
+  "username": "madel@madel.com",
+  "password": "madel"
+}

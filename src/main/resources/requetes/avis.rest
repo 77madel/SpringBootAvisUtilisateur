@@ -1,0 +1,18 @@
+POST http://localhost:8080/api/avis
+Content-Type: application/json
+Authorization: Bearer JhbGciOiJIUzI1NiJ9.eyJub20iOiJNYWRvdSBLT05FIiwiZXhwIjoxNzE3NjA1ODQ5LCJzdWIiOiJtYWRvdUBtYWRvdS5jb20ifQ.ytmUGmcA9yz0--cz3tBtCycuqBCeMq6-uBJU37ML9S8
+
+{
+  "message": "Test123"
+}
+
+###
+
+GET http://localhost:8080/api/avis
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJub20iOiJNYWRvdSBLT05FIiwic3ViIjoibWFkb3VAbWFkb3UuY29tIiwiZXhwIjoxNzE3NjEyNTc3fQ.TkLOD_Yzj_bHkZnpOhianGvXDTrlqAveGVT38UWaasU
+
+
+
+
+

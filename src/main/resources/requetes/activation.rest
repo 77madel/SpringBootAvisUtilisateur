@@ -1,0 +1,9 @@
+POST http://localhost:8080/api/activation
+Content-Type: application/json
+
+{
+  "email": "madou@madou.com",
+  "code": "876416"
+}
+
+###

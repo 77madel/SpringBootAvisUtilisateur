@@ -1,0 +1,25 @@
+###
+POST http://localhost:8080/api/avis
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJub20iOiJhZG1pbiIsImV4cCI6MTcxNzUwMTc2NX0.n0jsV_qjK-Qju0nBYDcC6tj3OGtfMVcQSs-g0fKVTd0
+
+
+{
+  "message": "Travaille bien"
+}
+
+###
+
+GET http://localhost:8080/api/avis
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJub20iOiJhZG1pbiIsImV4cCI6MTcxNzUwMTc2NX0.n0jsV_qjK-Qju0nBYDcC6tj3OGtfMVcQSs-g0fKVTd0
+
+
+###
+GET http://localhost:8080/api/avis
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MTc1MDE5MDcsInN1YiI6ImFkbWluQGFkbWluLmNvbSIsIm5vbSI6ImFkbWluIn0.2V_E9yOnspq8TGbQIWSMAmnRCF5BzOpnj1lRlVyID54
+
+
+
+###

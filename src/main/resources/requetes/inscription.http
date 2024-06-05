@@ -1,0 +1,21 @@
+POST http://localhost:8080/api/inscription
+Content-Type: application/json
+
+{
+  "nom": "Madou KONE",
+  "email": "madou@madou.com",
+  "mdp": "madou"
+}
+
+###
+POST http://localhost:8080/api/inscription
+Content-Type: application/json
+
+{
+  "nom": "Madel Madel",
+  "email": "madel@madel.com",
+  "mdp": "madel",
+  "role" : {
+    "libelle": "ADMINISTRATEUR"
+  }
+}
